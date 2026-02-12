@@ -28,16 +28,6 @@ This repository is the public release channel for extension builds.
 4. Enable **Developer mode**.
 5. Click **Load unpacked** and select the unzipped folder.
 
-## Privacy, in plain language
-
-- Unslop uses account email for sign-in.
-- Posts selected for filtering are sent to the Unslop API for keep/hide decisions.
-- Classification input may be processed by an LLM inference provider.
-- Data is used for filtering, cache efficiency, quota enforcement, and reliability.
-- No ad targeting, no analytics tracking scripts, no data resale.
-- No model training on user data in v0.1.
-
-Read full policy: https://getunslop.com/privacy  
 Support: support@getunslop.com
 
 ## Plans
