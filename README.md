@@ -1,56 +1,68 @@
-# Unslop
+```
+  _   _                 _               
+ | | | |               | |              
+ | | | | _ __    ___   | |   ___   _ __ 
+ | | | || '_ \  / __|  | |  / _ \ | '_ \
+ | |_| || | | | \__ \  | | | (_) || |_) |
+  \___/ |_| |_| |___/  |_|  \___/ | .__/
+                                  | |   
+                                  |_|   
+```
+> The internet was built for connection, not retention.
 
-**The internet was built for connection.**
+---
 
-Somewhere along the way, we became the product. Big Tech is engineered to spike your cortisol. They sell your focus to advertisers and bury real human connection under a mountain of algorithmic slop. They want you addicted. They want you doom-scrolling.
+**Unslop** is a local-first browser extension that restores the social web to a human scale. It silently filters algorithmic noise, engagement bait, and AI-generated slop from your feeds, leaving only the signal.
 
-**Unslop is a quiet filter for the noise.**
+> [!NOTE]
+> **Early Access**: Currently available for LinkedIn. X (Twitter) and Reddit support is in active development.
 
-It restores the internet to a tool for humans, not a Skinner box for retention metrics.
+## ⚡ The Signal
 
-## Experience the silence
+We believe your attention is a non-renewable resource. Unslop protects it by enforcing strict quality filters on your feed.
 
-Unslop analyzes posts on your feed using a local-first classification engine and hides content that matches your quality filters:
+## 📥 Deployment
 
-- **LinkedIn**: Hides "Broetry", engagement bait, AI-generated slop, and viral hustle-porn.
-- **X (Twitter)**: Filters rigorous engagement farming, rage-bait, and reply-guy spam.
-- **Reddit**: Cleans up low-effort content and karma farming.
+Unslop is distributed directly to users to avoid platform censorship and walled gardens.
 
-## 📥 Installation (Early Access)
+1. **Download** the latest stable release from the [Releases](../../releases) page.
+2. **Unzip** `unslop-extension-vX.Y.Z.zip` to a safe location.
+3. Open `chrome://extensions` in your browser.
+4. Toggle **Developer mode** (top right).
+5. Click **Load unpacked** and select the folder.
 
-Since Unslop is anti-slop, we distribute it directly to you. No walled gardens.
+*No data ever leaves your device during classification.*
 
-1. Go to the **[Releases](../../releases)** page.
-2. Download the latest `unslop-extension-vX.Y.Z.zip` file.
-3. Unzip the file.
-4. Open Chrome and navigate to `chrome://extensions`.
-5. Enable **Developer mode** (toggle in the top right corner).
-6. Click **"Load unpacked"**.
-7. Select the unzipped folder.
+## 🧬 Privacy Protocol
 
-## 🔒 The Unit Economics of Privacy
+**state: TRUSTLESS**
 
-Most apps hide their costs to sell you "unlimited" plans. Unslop doesn't do that because **we don't sell your data**.
+Unslop operates on a **zero-knowledge** architecture. We do not need to know what you read to filter what you shouldn't see.
 
-- **No tracking**: Your browsing history never leaves your device.
-- **No data sales**: We are funded by users, not advertisers.
-- **Transparent**: What you see is what you get.
+- **Local Processing**: Content analysis happens on the edge or your device.
+- **Ephemeral**: No browsing history is stored or transmitted.
+- **Auditable**: What you see is the only code that runs.
 
-## Fair Pricing
+## 💎 Unit Economics
+
+We are funded by users, not ad-tech.
+
+> `Item_Cost: $0.001` → `Net_Income: SUSTAINABLE` → `Status: INDEPENDENT`
 
 **The Tourist (Free)**
-- 100 Scans / Month (Trial)
-- Works on LinkedIn
-- See how it feels to browse in peace.
+- 100 Scans / Month
+- Experience the silence.
 
 **The Local ($5/mo)**
 - 2,500 Scans / Month
-- Directly funds development for X & Reddit support
-- Priority Processing & Accuracy Updates
-- [Subscribe here](https://polar.sh/unslop)
+- Priority processing
 
-## Support
+---
 
-- **Website**: [getunslop.com](https://getunslop.com)
-- **Twitter**: [@unslop](https://x.com/unslop)
-- **Built by**: A human.
+<div align="center">
+  <br />
+  <p>Built by a human.</p>
+  <p>
+    <a href="https://getunslop.com">Website</a>
+  </p>
+</div>
