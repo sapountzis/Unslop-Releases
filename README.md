@@ -12,7 +12,7 @@
 
 ---
 
-**Unslop** is a local-first browser extension that restores the social web to a human scale. It silently filters algorithmic noise, engagement bait, and AI-generated slop from your feeds, leaving only the signal.
+**Unslop** is a browser extension that restores the social web to a human scale. It silently filters algorithmic noise, engagement bait, and AI-generated slop from your feeds, leaving only the signal.
 
 > [!NOTE]
 > **Early Access**: Currently available for LinkedIn. X (Twitter) and Reddit support is in active development.
