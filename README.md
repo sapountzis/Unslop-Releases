@@ -1,68 +1,53 @@
+```text
+ _   _                 _
+| | | |               | |
+| | | | _ __   ___    | |  ___   _ __
+| | | || '_ \ / __|   | | / _ \ | '_ \
+| |_| || | | |\__ \   | || (_) || |_) |
+ \___/ |_| |_||___/   |_| \___/ | .__/
+                                 | |
+                                 |_|
 ```
-  _   _                 _               
- | | | |               | |              
- | | | | _ __    ___   | |   ___   _ __ 
- | | | || '_ \  / __|  | |  / _ \ | '_ \
- | |_| || | | | \__ \  | | | (_) || |_) |
-  \___/ |_| |_| |___/  |_|  \___/ | .__/
-                                  | |   
-                                  |_|   
-```
-> The internet was built for connection, not retention.
+
+> The social web should feel human again.
+
+Unslop is a Chrome extension that filters low-value feed posts so you can focus on signal instead of algorithmic noise.
+
+This repository is the public release channel for extension builds.
+
+## Current status
+
+- Available now for LinkedIn
+- X (Twitter) and Reddit support are in active development
+
+## Install from release
+
+1. Download the latest zip from the [Releases](../../releases) page.
+2. Unzip `unslop-extension-vX.Y.Z.zip`.
+3. Open `chrome://extensions`.
+4. Enable **Developer mode**.
+5. Click **Load unpacked** and select the unzipped folder.
+
+## Privacy, in plain language
+
+- Unslop uses account email for sign-in.
+- Posts selected for filtering are sent to the Unslop API for keep/hide decisions.
+- Classification input may be processed by an LLM inference provider.
+- Data is used for filtering, cache efficiency, quota enforcement, and reliability.
+- No ad targeting, no analytics tracking scripts, no data resale.
+- No model training on user data in v0.1.
+
+Read full policy: https://getunslop.com/privacy  
+Support: support@getunslop.com
+
+## Plans
+
+- Free plan for trying the product
+- Paid plan for higher monthly usage and continued development
+
+See current plan details in the extension UI and on https://getunslop.com.
 
 ---
 
-**Unslop** is a browser extension that restores the social web to a human scale. It silently filters algorithmic noise, engagement bait, and AI-generated slop from your feeds, leaving only the signal.
-
-> [!NOTE]
-> **Early Access**: Currently available for LinkedIn. X (Twitter) and Reddit support is in active development.
-
-## ⚡ The Signal
-
-We believe your attention is a non-renewable resource. Unslop protects it by enforcing strict quality filters on your feed.
-
-## 📥 Deployment
-
-Unslop is distributed directly to users to avoid platform censorship and walled gardens.
-
-1. **Download** the latest stable release from the [Releases](../../releases) page.
-2. **Unzip** `unslop-extension-vX.Y.Z.zip` to a safe location.
-3. Open `chrome://extensions` in your browser.
-4. Toggle **Developer mode** (top right).
-5. Click **Load unpacked** and select the folder.
-
-*No data ever leaves your device during classification.*
-
-## 🧬 Privacy Protocol
-
-**state: TRUSTLESS**
-
-Unslop operates on a **zero-knowledge** architecture. We do not need to know what you read to filter what you shouldn't see.
-
-- **Local Processing**: Content analysis happens on the edge or your device.
-- **Ephemeral**: No browsing history is stored or transmitted.
-- **Auditable**: What you see is the only code that runs.
-
-## 💎 Unit Economics
-
-We are funded by users, not ad-tech.
-
-> `Item_Cost: $0.001` → `Net_Income: SUSTAINABLE` → `Status: INDEPENDENT`
-
-**The Tourist (Free)**
-- 100 Scans / Month
-- Experience the silence.
-
-**The Local ($5/mo)**
-- 2,500 Scans / Month
-- Priority processing
-
----
-
-<div align="center">
-  <br />
-  <p>Built by a human.</p>
-  <p>
-    <a href="https://getunslop.com">Website</a>
-  </p>
-</div>
+Built by a human.  
+https://getunslop.com
